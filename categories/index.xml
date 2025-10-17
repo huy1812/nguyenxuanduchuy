@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hugoplate</title>
-    <link>/categories/</link>
+    <link>https://huy1812.github.io/nguyenxuanduchuy/categories/</link>
     <description>Recent content in Categories on Hugoplate</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://huy1812.github.io/nguyenxuanduchuy/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
-      <link>/categories/java/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/categories/java/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>/categories/java/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>/categories/networking/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/categories/networking/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>/categories/networking/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/categories/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>/categories/architecture/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/categories/architecture/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/architecture/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/categories/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>/categories/data/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/categories/data/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/data/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>/categories/software/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/categories/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/software/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/categories/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>/categories/technology/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/categories/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/categories/technology/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/categories/technology/</guid>
       <description></description>
     </item>
   </channel>

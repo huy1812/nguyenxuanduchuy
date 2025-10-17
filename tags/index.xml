@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugoplate</title>
-    <link>/tags/</link>
+    <link>https://huy1812.github.io/nguyenxuanduchuy/tags/</link>
     <description>Recent content in Tags on Hugoplate</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://huy1812.github.io/nguyenxuanduchuy/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
-      <link>/tags/java/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/java/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>/tags/java/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>/tags/networking/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/networking/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>/tags/networking/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Socket</title>
-      <link>/tags/socket/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/socket/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>/tags/socket/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/socket/</guid>
       <description></description>
     </item>
     <item>
       <title>Silicon</title>
-      <link>/tags/silicon/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/silicon/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/silicon/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/silicon/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>/tags/software/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/software/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwind</title>
-      <link>/tags/tailwind/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/tailwind/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/tailwind/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/tailwind/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>/tags/technology/</link>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>/tags/technology/</guid>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/technology/</guid>
       <description></description>
     </item>
   </channel>
