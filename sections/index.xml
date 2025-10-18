@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sections on Nguyen Xuan Duc Huy</title>
-    <link>http://localhost:1313/nguyenxuanduchuy/sections/</link>
+    <link>https://huy1812.github.io/nguyenxuanduchuy/sections/</link>
     <description>Recent content in Sections on Nguyen Xuan Duc Huy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/nguyenxuanduchuy/sections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://huy1812.github.io/nguyenxuanduchuy/sections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ready to build your next project with Hugo?</title>
       <link></link>
