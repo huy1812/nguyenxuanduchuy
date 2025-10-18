@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Contact on Hugoplate</title>
-    <link>https://huy1812.github.io/nguyenxuanduchuy/contact/</link>
-    <description>Recent content in Contact on Hugoplate</description>
+    <title>Contact on Nguyen Xuan Duc Huy</title>
+    <link>http://localhost:1313/nguyenxuanduchuy/contact/</link>
+    <description>Recent content in Contact on Nguyen Xuan Duc Huy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://huy1812.github.io/nguyenxuanduchuy/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/nguyenxuanduchuy/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,60 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugoplate</title>
-    <link>https://huy1812.github.io/nguyenxuanduchuy/</link>
-    <description>Recent content on Hugoplate</description>
+    <title>Nguyen Xuan Duc Huy</title>
+    <link>http://localhost:1313/nguyenxuanduchuy/</link>
+    <description>Recent content on Nguyen Xuan Duc Huy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
-    <atom:link href="https://huy1812.github.io/nguyenxuanduchuy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/nguyenxuanduchuy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Giới thiệu về lập trình mạng với Java</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/blog/post-1/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-1/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/blog/post-1/</guid>
-      <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới Thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Lập trình mạng (Network Programming) là một phần quan trọng trong Java, giúp ta xây dựng các ứng dụng có khả năng giao tiếp qua mạng Internet hoặc LAN.&#xA;Với lập trình mạng, bạn có thể tạo ra các chương trình Client – Server, truyền dữ liệu, gửi tin nhắn, hay xây dựng dịch vụ API.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-1/</guid>
+      <description>&lt;h2 id=&#34;1-lập-trình-mạng-là-gì&#34;&gt;1️⃣ Lập trình mạng là gì?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lập trình mạng (Network Programming)&lt;/strong&gt; cho phép các chương trình gửi và nhận dữ liệu qua mạng bằng các giao thức như &lt;strong&gt;TCP&lt;/strong&gt; và &lt;strong&gt;UDP&lt;/strong&gt;.&lt;br&gt;&#xA;Trong Java, việc này được hỗ trợ thông qua các lớp trong gói &lt;code&gt;java.net&lt;/code&gt;, ví dụ:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/blog/post-2/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/blog/post-2/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+      <title>Hiểu rõ giao thức TCP và UDP trong Java </title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-2/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-2/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;Khi lập trình mạng, bạn sẽ thường gặp hai giao thức cơ bản nhất: &lt;strong&gt;TCP (Transmission Control Protocol)&lt;/strong&gt; và &lt;strong&gt;UDP (User Datagram Protocol)&lt;/strong&gt;.&lt;br&gt;&#xA;Chúng quyết định &lt;strong&gt;cách dữ liệu được truyền đi giữa các máy tính trong mạng&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/blog/post-3/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/blog/post-3/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+      <title>Quản lý luồng nhập và xuất (I/O Stream) trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-3/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-3/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;Trong lập trình mạng, &lt;strong&gt;luồng (Stream)&lt;/strong&gt; là cơ chế giúp dữ liệu &lt;strong&gt;truyền qua lại giữa hai tiến trình&lt;/strong&gt;, ví dụ giữa &lt;strong&gt;Client ↔ Server&lt;/strong&gt;.&lt;br&gt;&#xA;Java cung cấp các lớp mạnh mẽ trong gói &lt;code&gt;java.io&lt;/code&gt; để thao tác với luồng dữ liệu:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How to build an Application with modern Technology</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/blog/post-4/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/blog/post-4/</guid>
-      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+      <title>Quản lý địa chỉ mạng với InetAddress trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-4/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-4/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;Khi làm việc với lập trình mạng, một trong những yêu cầu cơ bản là &lt;strong&gt;xác định và quản lý địa chỉ IP&lt;/strong&gt; của thiết bị hoặc máy chủ.&lt;br&gt;&#xA;Trong Java, lớp &lt;strong&gt;InetAddress&lt;/strong&gt; trong gói &lt;code&gt;java.net&lt;/code&gt; được thiết kế để làm việc với:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Elements</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/elements/</guid>
-      <description>&lt;details class=&#34;table-of-content &#34;&gt;&#xA;  &lt;summary&gt;&#xA;    &#xA;      Table of Contents&#xA;    &#xA;  &lt;/summary&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#heading-2&#34;&gt;Heading 2&lt;/a&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#heading-3&#34;&gt;Heading 3&lt;/a&gt;&#xA;          &lt;ol&gt;&#xA;            &lt;li&gt;&lt;a href=&#34;#heading-4&#34;&gt;Heading 4&lt;/a&gt;&#xA;              &lt;ol&gt;&#xA;                &lt;li&gt;&lt;a href=&#34;#heading-5&#34;&gt;Heading 5&lt;/a&gt;&lt;/li&gt;&#xA;              &lt;/ol&gt;&#xA;            &lt;/li&gt;&#xA;          &lt;/ol&gt;&#xA;        &lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#emphasis&#34;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#button&#34;&gt;Button&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#paragraph&#34;&gt;Paragraph&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ordered-list&#34;&gt;Ordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#unordered-list&#34;&gt;Unordered List&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#notice&#34;&gt;Notice&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tab&#34;&gt;Tab&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#accordions&#34;&gt;Accordions&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#code-and-syntax-highlighting&#34;&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#blockquote&#34;&gt;Blockquote&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#gallery&#34;&gt;Gallery&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#slider&#34;&gt;Slider&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#youtube-video&#34;&gt;Youtube video&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#custom-video&#34;&gt;Custom video&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description>
+      <title>Lập trình Socket TCP nâng cao trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-5/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-5/</guid>
+      <description>&lt;h3 id=&#34;1-tổng-quan&#34;&gt;1️⃣ Tổng quan&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;TCP (Transmission Control Protocol)&lt;/strong&gt; là giao thức &lt;strong&gt;hướng kết nối (connection-oriented)&lt;/strong&gt;, đảm bảo dữ liệu được truyền &lt;strong&gt;đúng thứ tự&lt;/strong&gt; và &lt;strong&gt;không bị mất mát&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Socket UDP trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-6/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-6/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;UDP (User Datagram Protocol)&lt;/strong&gt; là giao thức &lt;strong&gt;không kết nối (connectionless)&lt;/strong&gt; — nghĩa là &lt;strong&gt;không cần bắt tay hay duy trì phiên làm việc&lt;/strong&gt; như TCP.&lt;br&gt;&#xA;UDP gửi dữ liệu đi dưới dạng &lt;strong&gt;datagram (gói tin)&lt;/strong&gt; và không đảm bảo rằng gói tin sẽ đến nơi hoặc đến đúng thứ tự.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình đa luồng (Multithreading) trong ứng dụng mạng Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-7/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-7/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu--đa-luồng-là-gì&#34;&gt;1️⃣ Giới thiệu – Đa luồng là gì?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Đa luồng (Multithreading)&lt;/strong&gt; là kỹ thuật cho phép một chương trình &lt;strong&gt;thực hiện nhiều tác vụ cùng lúc&lt;/strong&gt;.&lt;br&gt;&#xA;Thay vì chạy tuần tự từng bước, chương trình có thể tạo &lt;strong&gt;nhiều luồng (Thread)&lt;/strong&gt; — mỗi luồng đảm nhận một công việc riêng biệt.&#xA;Ví dụ:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Multicast UDP trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-8/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-8/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu--multicast-là-gì&#34;&gt;1️⃣ Giới thiệu – Multicast là gì?&lt;/h3&gt;&#xA;&lt;p&gt;🔹 &lt;strong&gt;Multicast&lt;/strong&gt; là sự cân bằng giữa Unicast và Broadcast — nó cho phép bạn gửi &lt;strong&gt;một gói tin duy nhất&lt;/strong&gt;, nhưng &lt;strong&gt;nhiều máy trong nhóm có thể nhận được&lt;/strong&gt;.&lt;br&gt;&#xA;→ Giúp &lt;strong&gt;tiết kiệm băng thông&lt;/strong&gt; và &lt;strong&gt;tăng hiệu suất truyền thông điệp nhóm&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu Java RMI (Remote Method Invocation)</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-9/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-9/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;RMI (Remote Method Invocation)&lt;/strong&gt; là công nghệ trong Java cho phép &lt;strong&gt;gọi các phương thức (method) từ xa&lt;/strong&gt; — nghĩa là bạn có thể gọi một hàm nằm trên &lt;strong&gt;một máy chủ khác qua mạng&lt;/strong&gt;, nhưng vẫn thao tác như thể nó chạy &lt;strong&gt;trực tiếp trên máy bạn&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>John Doe</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/authors/john-doe/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/authors/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/authors/john-doe/</guid>
+      <guid>http://localhost:1313/nguyenxuanduchuy/authors/john-doe/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/privacy-policy/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/privacy-policy/</guid>
+      <guid>http://localhost:1313/nguyenxuanduchuy/privacy-policy/</guid>
       <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
     </item>
     <item>
@@ -66,23 +94,23 @@
     </item>
     <item>
       <title>Sam Wilson</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/authors/sam-wilson/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/authors/sam-wilson/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/authors/sam-wilson/</guid>
+      <guid>http://localhost:1313/nguyenxuanduchuy/authors/sam-wilson/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>What Users Are Saying About Hugoplate</title>
-      <link></link>
+      <title>Sơ yếu lý lịch</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
+      <guid>http://localhost:1313/nguyenxuanduchuy/elements/</guid>
+      <description>&lt;h2 id=&#34;-học-vấn&#34;&gt;🎓 Học vấn&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trường Đại học Công nghệ TP.HCM (HUTECH)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Ngành Công nghệ thông tin — Hiện tại&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>William Jacob</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/authors/william-jacob/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/authors/william-jacob/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/authors/william-jacob/</guid>
+      <guid>http://localhost:1313/nguyenxuanduchuy/authors/william-jacob/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
   </channel>

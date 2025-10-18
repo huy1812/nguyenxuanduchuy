@@ -4,7 +4,7 @@
   class=""
   lang="en-us"
   itemtype="http://schema.org/WebPage">
-  <head>
+  <head><script src="/nguyenxuanduchuy/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=nguyenxuanduchuy/livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
 
@@ -72,7 +72,7 @@
 
 
 
-  <base href="https://huy1812.github.io/nguyenxuanduchuy/blog/post-2/" />
+  <base href="http://localhost:1313/nguyenxuanduchuy/blog/post-2/" />
 
 
 
@@ -81,9 +81,10 @@
 
 
   
+  
 
 
-<title>How to build an Application with modern Technology</title>
+<title>Sự khác biệt giữa TCP và UDP trong lập trình mạng Java </title>
 
 
 
@@ -108,7 +109,7 @@
 
 <meta
   name="description"
-  content="this is meta description" />
+  content="Phân tích chi tiết hai giao thức TCP và UDP — nền tảng của lập trình mạng trong Java, cách hoạt động và ví dụ minh họa." />
 
 
 
@@ -161,15 +162,15 @@
       
       
       
-        <meta property="og:image" content="https://huy1812.github.io/nguyenxuanduchuy/images/image-placeholder.png" />
-        <meta name="twitter:image" content="https://huy1812.github.io/nguyenxuanduchuy/images/image-placeholder.png" />
+        <meta property="og:image" content="http://localhost:1313/nguyenxuanduchuy/images/TCP-UDP.png" />
+        <meta name="twitter:image" content="http://localhost:1313/nguyenxuanduchuy/images/TCP-UDP.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
       
       
-      <meta property="og:image:width" content="1096" />
-      <meta property="og:image:height" content="480" />
+      <meta property="og:image:width" content="1000" />
+      <meta property="og:image:height" content="470" />
     
 
 
@@ -186,14 +187,14 @@
 
 
 
-<meta property="og:title" content="How to build an Application with modern Technology" />
-<meta property="og:description" content="this is meta description" />
+<meta property="og:title" content="Sự khác biệt giữa TCP và UDP trong lập trình mạng Java " />
+<meta property="og:description" content="Phân tích chi tiết hai giao thức TCP và UDP — nền tảng của lập trình mạng trong Java, cách hoạt động và ví dụ minh họa." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://huy1812.github.io/nguyenxuanduchuy/blog/post-2/" />
+<meta property="og:url" content="http://localhost:1313/nguyenxuanduchuy/blog/post-2/" />
 
 
-<meta name="twitter:title" content="How to build an Application with modern Technology" />
-<meta name="twitter:description" content="this is meta description" />
+<meta name="twitter:title" content="Sự khác biệt giữa TCP và UDP trong lập trình mạng Java " />
+<meta name="twitter:description" content="Phân tích chi tiết hai giao thức TCP và UDP — nền tảng của lập trình mạng trong Java, cách hoạt động và ví dụ minh họa." />
 
 
   <meta name="twitter:site" content="@zeon_studio" />
@@ -220,7 +221,7 @@
 
 
 <script>
-  let indexURL = "https://huy1812.github.io/nguyenxuanduchuy/searchindex.json";
+  let indexURL = "http://localhost:1313/nguyenxuanduchuy/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -326,22 +327,19 @@
 
 
 
-  
-  
-
 
 
 
 <link
-  href="/nguyenxuanduchuy/css/style.50e2de1626bfe5007b3fe4efed9741e91f3bcb2a51fed92bba824bfd91cc4913.css"
-  integrity="sha256-UOLeFia/5QB7P&#43;Tv7ZdB6R87yypR/tkruoJL/ZHMSRM="
+  href="/nguyenxuanduchuy/css/style.css"
+  integrity=""
   rel="stylesheet" />
 
 
 <link
   rel="stylesheet"
-  href="/nguyenxuanduchuy/css/style-lazy.min.9e7e035d2f064fe004383f2ffc11a8f2966ef7b51c5fb2fac926e35c0061b5cf.css"
-  integrity="sha256-nn4DXS8GT&#43;AEOD8v/BGo8pZu97UcX7L6ySbjXABhtc8="
+  href="/nguyenxuanduchuy/css/style-lazy.css"
+  integrity=""
   media="print"
   onload="this.media='all'; this.onload=null;" />
 
@@ -355,7 +353,18 @@
 
 
 
+
+
       
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
 
     
 
@@ -374,107 +383,11 @@
     
     <div class="order-0">
       
-      <a class="navbar-brand block" href="/nguyenxuanduchuy/">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-  
-  
-    
-    
-  
-
-
-  
-  
-      
-      
-    
-    
-    
-    
-    
-    
-  
-  
-
-  
-  
-    
-    
-      
-      
-
-
-      
-      
-        
-        
-        
-        
-
-        
-        
-        
-      
-      
-    
-  
-  
-
-  
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-light"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo_hu_75df6f187f7b785d.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo_hu_613f51f483beed3c.png';" />
-
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-dark"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo-darkmode_hu_a274d2b570d85754.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
-  
-  
-
-
-      </a>
+    <a
+    class="navbar-brand block text-2xl font-bold text-black dark:text-white"
+    href="/nguyenxuanduchuy/">
+    Nguyễn Xuân Đức Huy
+  </a>
     </div>
     
     <input id="nav-toggle" type="checkbox" class="hidden" />
@@ -537,7 +450,7 @@
               class="nav-link "
               
               href="/nguyenxuanduchuy/elements"
-              >Elements</a
+              >Resume</a
             >
           </li>
         
@@ -565,14 +478,6 @@
                 
                 
                 
-              
-                
-                
-                
-              
-                
-                
-                
                inline-flex items-center">
               Pages
               <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -582,28 +487,6 @@
             </label>
             <ul
               class="nav-dropdown-list hidden peer-checked:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/nguyenxuanduchuy/404">
-                    404 Page
-                  </a>
-                </li>
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/nguyenxuanduchuy/authors">
-                    Authors
-                  </a>
-                </li>
               
                 
                 
@@ -961,31 +844,31 @@
         <picture>
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_fdf94c9873d4e90a.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_35230a4d766c2496.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_c1ab8d1c93e7327a.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_26add63b09779c9.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/nguyenxuanduchuy/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/nguyenxuanduchuy/images/TCP-UDP_hu_5ee4129d1e9036f1.png"
             class=" w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Hiểu rõ giao thức TCP và UDP trong Java "
+            width="1000"
+            height="470" />
         </picture>
       
       
@@ -1000,14 +883,14 @@
             </div>
           
           <h1 class="h2 mb-4">
-            How to build an Application with modern Technology
+            Hiểu rõ giao thức TCP và UDP trong Java 
           </h1>
           <ul class="mb-4">
             <li class="mr-4 inline-block">
               <a
-                href="/nguyenxuanduchuy/authors/sam-wilson/">
+                href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
                 <i class="fa-regular fa-circle-user mr-2"></i
-                >Sam Wilson
+                >Đức Huy
               </a>
             </li>
             
@@ -1016,24 +899,24 @@
                 <i class="fa-regular fa-folder mr-2"></i>
                 
                   <a
-                    href="/nguyenxuanduchuy/categories/technology/"
+                    href="/nguyenxuanduchuy/categories/java/"
                     class=""
-                    >Technology
+                    >Java
                       ,
                     
                   </a>
                 
                   <a
-                    href="/nguyenxuanduchuy/categories/data/"
+                    href="/nguyenxuanduchuy/categories/networking/"
                     class=""
-                    >Data
+                    >Networking
                   </a>
                 
               </li>
             
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
-              April 4, 2022
+              October 16, 2025
             </li>
           </ul>
           <div class="content mb-10">
@@ -1050,19 +933,172 @@
   </summary>
   <nav id="TableOfContents">
   <ol>
-    <li><a href="#creative-design">Creative Design</a></li>
+    <li>
+      <ol>
+        <li><a href="#1-giới-thiệu">1️⃣ Giới thiệu</a></li>
+        <li><a href="#2-giao-thức-tcp--hướng-kết-nối-đáng-tin-cậy">2️⃣ Giao thức TCP – Hướng kết nối, đáng tin cậy</a>
+          <ol>
+            <li><a href="#ví-dụ-server-và-client-sử-dụng-tcp">Ví dụ: Server và Client sử dụng TCP</a></li>
+            <li><a href="#giải-thích">Giải thích</a></li>
+          </ol>
+        </li>
+        <li><a href="#3-giao-thức-udp--không-kết-nối-tốc-độ-cao">3️⃣ Giao thức UDP – Không kết nối, tốc độ cao</a>
+          <ol>
+            <li><a href="#ví-dụ-gửi-và-nhận-dữ-liệu-với-udp">Ví dụ: Gửi và nhận dữ liệu với UDP</a></li>
+            <li><a href="#udp-thường-được-dùng-trong">UDP thường được dùng trong:</a></li>
+          </ol>
+        </li>
+        <li><a href="#4-so-sánh-tcp-vs-udp">4️⃣ So sánh TCP vs UDP</a></li>
+        <li><a href="#5-kết-luận">5️⃣ Kết luận</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
 </details>
 
-            <p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
-<h2 id="creative-design">Creative Design</h2>
-<p>Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
-<blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
-</blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+            <h3 id="1-giới-thiệu">1️⃣ Giới thiệu</h3>
+<p>Khi lập trình mạng, bạn sẽ thường gặp hai giao thức cơ bản nhất: <strong>TCP (Transmission Control Protocol)</strong> và <strong>UDP (User Datagram Protocol)</strong>.<br>
+Chúng quyết định <strong>cách dữ liệu được truyền đi giữa các máy tính trong mạng</strong>.</p>
+<ul>
+<li><strong>TCP</strong> đảm bảo dữ liệu được gửi đi đúng thứ tự, không bị mất gói.</li>
+<li><strong>UDP</strong> thì nhanh hơn, nhưng có thể mất gói dữ liệu trên đường đi.</li>
+</ul>
+<p>Java cung cấp cả hai giao thức này thông qua thư viện <strong><code>java.net</code></strong>, giúp lập trình viên dễ dàng xây dựng các ứng dụng mạng mạnh mẽ và linh hoạt.</p>
+<hr>
+<h3 id="2-giao-thức-tcp--hướng-kết-nối-đáng-tin-cậy">2️⃣ Giao thức TCP – Hướng kết nối, đáng tin cậy</h3>
+<p><strong>TCP</strong> hoạt động giống như <strong>một cuộc gọi điện thoại</strong> — hai bên phải “bắt tay” (thiết lập kết nối) trước khi truyền dữ liệu.<br>
+Điều này đảm bảo dữ liệu được gửi <strong>đúng thứ tự, không bị mất mát</strong>.</p>
+<h4 id="ví-dụ-server-và-client-sử-dụng-tcp">Ví dụ: Server và Client sử dụng TCP</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// Server.java</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.net.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TCPServer</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> IOException {
+</span></span><span style="display:flex;"><span>        ServerSocket server <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ServerSocket(8081);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Đang chờ kết nối từ client...&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        Socket socket <span style="color:#f92672">=</span> server.<span style="color:#a6e22e">accept</span>();
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Client đã kết nối!&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        BufferedReader input <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> BufferedReader(<span style="color:#66d9ef">new</span> InputStreamReader(socket.<span style="color:#a6e22e">getInputStream</span>()));
+</span></span><span style="display:flex;"><span>        String message <span style="color:#f92672">=</span> input.<span style="color:#a6e22e">readLine</span>();
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Nhận từ client: &#34;</span> <span style="color:#f92672">+</span> message);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        input.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>        socket.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>        server.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Client.java</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.io.*;
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.net.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">TCPClient</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> IOException {
+</span></span><span style="display:flex;"><span>        Socket socket <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Socket(<span style="color:#e6db74">&#34;localhost&#34;</span>, 8081);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Kết nối thành công đến server!&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        PrintWriter output <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> PrintWriter(socket.<span style="color:#a6e22e">getOutputStream</span>(), <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>        output.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Xin chào Server qua TCP!&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        output.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>        socket.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="giải-thích">Giải thích</h4>
+<ul>
+<li><strong>ServerSocket</strong> tạo một cổng lắng nghe.</li>
+<li><strong>Socket</strong> là kết nối giữa Client và Server.</li>
+<li><strong>InputStream / OutputStream</strong> giúp đọc và ghi dữ liệu.</li>
+<li><strong>Khi chạy TCPServer.java</strong> trước, rồi TCPClient.java, bạn sẽ thấy server in ra:</li>
+<li><strong>Nhận từ client</strong>: Xin chào Server qua TCP!</li>
+</ul>
+<h3 id="3-giao-thức-udp--không-kết-nối-tốc-độ-cao">3️⃣ Giao thức UDP – Không kết nối, tốc độ cao</h3>
+<p>UDP (User Datagram Protocol) hoạt động giống như gửi thư – bạn chỉ việc gửi gói tin đi mà không cần xác nhận xem bên kia có nhận được hay không.
+UDP nhanh hơn TCP rất nhiều, nhưng độ tin cậy thấp hơn (dữ liệu có thể bị mất nếu mạng yếu).</p>
+<h4 id="ví-dụ-gửi-và-nhận-dữ-liệu-với-udp">Ví dụ: Gửi và nhận dữ liệu với UDP</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// UDPServer.java</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.net.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UDPServer</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> Exception {
+</span></span><span style="display:flex;"><span>        DatagramSocket socket <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DatagramSocket(5000);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> buffer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span>1024<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        DatagramPacket packet <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DatagramPacket(buffer, buffer.<span style="color:#a6e22e">length</span>);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Server UDP đang chờ dữ liệu...&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        socket.<span style="color:#a6e22e">receive</span>(packet);
+</span></span><span style="display:flex;"><span>        String msg <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> String(packet.<span style="color:#a6e22e">getData</span>(), 0, packet.<span style="color:#a6e22e">getLength</span>());
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Nhận được: &#34;</span> <span style="color:#f92672">+</span> msg);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        socket.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// UDPClient.java</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> java.net.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UDPClient</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> Exception {
+</span></span><span style="display:flex;"><span>        DatagramSocket socket <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DatagramSocket();
+</span></span><span style="display:flex;"><span>        String msg <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Xin chào UDP!&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">byte</span><span style="color:#f92672">[]</span> data <span style="color:#f92672">=</span> msg.<span style="color:#a6e22e">getBytes</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        DatagramPacket packet <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> DatagramPacket(
+</span></span><span style="display:flex;"><span>            data, data.<span style="color:#a6e22e">length</span>, InetAddress.<span style="color:#a6e22e">getLocalHost</span>(), 5000
+</span></span><span style="display:flex;"><span>        );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        socket.<span style="color:#a6e22e">send</span>(packet);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Đã gửi gói tin UDP!&#34;</span>);
+</span></span><span style="display:flex;"><span>        socket.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="udp-thường-được-dùng-trong">UDP thường được dùng trong:</h4>
+<ul>
+<li>Ứng dụng stream video, voice call</li>
+<li>Game online (truyền dữ liệu nhanh, liên tục)</li>
+<li>Gửi sensor data trong IoT</li>
+</ul>
+<h3 id="4-so-sánh-tcp-vs-udp">4️⃣ So sánh TCP vs UDP</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Đặc điểm</th>
+          <th>TCP (Transmission Control Protocol)</th>
+          <th>UDP (User Datagram Protocol)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Kết nối</strong></td>
+          <td>Có (phải bắt tay 3 bước)</td>
+          <td>Không cần kết nối</td>
+      </tr>
+      <tr>
+          <td><strong>Độ tin cậy</strong></td>
+          <td>Cao – đảm bảo thứ tự, không mất gói</td>
+          <td>Thấp – có thể mất gói dữ liệu</td>
+      </tr>
+      <tr>
+          <td><strong>Tốc độ</strong></td>
+          <td>Trung bình</td>
+          <td>Rất cao</td>
+      </tr>
+      <tr>
+          <td><strong>Ứng dụng</strong></td>
+          <td>Web, chat, email, file transfer</td>
+          <td>Game, stream, IoT, broadcast</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="5-kết-luận">5️⃣ Kết luận</h3>
+<ul>
+<li>Dùng TCP khi bạn cần độ tin cậy cao, như web server, ứng dụng chat, hay truyền file.</li>
+<li>Dùng UDP khi bạn cần tốc độ cao, chấp nhận mất một ít dữ liệu — như stream video, game, IoT.</li>
+<li>Hiểu rõ hai giao thức này là nền tảng của mọi ứng dụng mạng hiện đại.</li>
+<li>Sau khi nắm vững TCP và UDP, bạn có thể tiếp tục học multithreading, broadcast/multicast, và Java RMI để xây dựng hệ thống mạng mạnh mẽ hơn.</li>
+</ul>
 
           </div>
           <div class="row items-start justify-between">
@@ -1075,16 +1111,40 @@
                     <li class="inline-block">
                       <a
                         class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
-                        href="/nguyenxuanduchuy/tags/technology/">
-                        Technology
+                        href="/nguyenxuanduchuy/tags/java/">
+                        Java
                       </a>
                     </li>
                   
                     <li class="inline-block">
                       <a
                         class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
-                        href="/nguyenxuanduchuy/tags/tailwind/">
-                        Tailwind
+                        href="/nguyenxuanduchuy/tags/tcp/">
+                        Tcp
+                      </a>
+                    </li>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/nguyenxuanduchuy/tags/udp/">
+                        UDP
+                      </a>
+                    </li>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/nguyenxuanduchuy/tags/socket/">
+                        Socket
+                      </a>
+                    </li>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/nguyenxuanduchuy/tags/networking/">
+                        Networking
                       </a>
                     </li>
                   
@@ -1117,7 +1177,7 @@
   
     <a
       class="share-link share-facebook"
-      href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fhuy1812.github.io%2fnguyenxuanduchuy%2fblog%2fpost-2%2f"
+      href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fnguyenxuanduchuy%2fblog%2fpost-2%2f"
       target="_blank"
       rel="noopener"
       aria-label="share facebook">
@@ -1135,7 +1195,7 @@
   
     <a
       class="share-link share-x"
-      href="https://x.com/intent/tweet/?text=How%20to%20build%20an%20Application%20with%20modern%20Technology&amp;url=https%3a%2f%2fhuy1812.github.io%2fnguyenxuanduchuy%2fblog%2fpost-2%2f"
+      href="https://x.com/intent/tweet/?text=Hi%e1%bb%83u%20r%c3%b5%20giao%20th%e1%bb%a9c%20TCP%20v%c3%a0%20UDP%20trong%20Java%20&amp;url=http%3a%2f%2flocalhost%3a1313%2fnguyenxuanduchuy%2fblog%2fpost-2%2f"
       target="_blank"
       rel="noopener"
       aria-label="share x">
@@ -1153,7 +1213,7 @@
   
     <a
       class="share-link share-email"
-      href="mailto:?subject=How%20to%20build%20an%20Application%20with%20modern%20Technology&amp;body=https%3a%2f%2fhuy1812.github.io%2fnguyenxuanduchuy%2fblog%2fpost-2%2f"
+      href="mailto:?subject=Hi%e1%bb%83u%20r%c3%b5%20giao%20th%e1%bb%a9c%20TCP%20v%c3%a0%20UDP%20trong%20Java%20&amp;body=http%3a%2f%2flocalhost%3a1313%2fnguyenxuanduchuy%2fblog%2fpost-2%2f"
       target="_self"
       rel="noopener"
       aria-label="share email">
@@ -1226,10 +1286,10 @@
           type="text"
           placeholder="Enter Fediverse Instance URL"
           class="fediverse-input"
-          onkeypress="handleFediverseShare(event, 'https:\/\/huy1812.github.io\/nguyenxuanduchuy\/blog\/post-2\/', 'How to build an Application with modern Technology')" />
+          onkeypress="handleFediverseShare(event, 'http:\/\/localhost:1313\/nguyenxuanduchuy\/blog\/post-2\/', 'Hiểu rõ giao thức TCP và UDP trong Java ')" />
         <button
           class="fediverse-check-button"
-          onclick="handleFediverseShareButton(this, 'https:\/\/huy1812.github.io\/nguyenxuanduchuy\/blog\/post-2\/', 'How to build an Application with modern Technology')">
+          onclick="handleFediverseShareButton(this, 'http:\/\/localhost:1313\/nguyenxuanduchuy\/blog\/post-2\/', 'Hiểu rõ giao thức TCP và UDP trong Java ')">
           Share
         </button>
       </span>
@@ -1241,7 +1301,7 @@
   
     <button
       class="share-link share-copy"
-      onclick="copyToClipboard(this, 'https:\/\/huy1812.github.io\/nguyenxuanduchuy\/blog\/post-2\/')">
+      onclick="copyToClipboard(this, 'http:\/\/localhost:1313\/nguyenxuanduchuy\/blog\/post-2\/')">
       <span class="share-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
@@ -1431,31 +1491,31 @@
         <picture>
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/nguyenxuanduchuy/images/post9_hu_fc4ff99f6b7127f3.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/nguyenxuanduchuy/images/post9_hu_454cda6b1d0e1514.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/nguyenxuanduchuy/images/post9_hu_853a19786160fe98.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/nguyenxuanduchuy/images/post9_hu_519180ae932b6d66.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/nguyenxuanduchuy/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/nguyenxuanduchuy/images/post9_hu_8983d03ac4373f5e.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Giới thiệu Java RMI (Remote Method Invocation)"
+            width="698"
+            height="397" />
         </picture>
       
       
@@ -1469,33 +1529,41 @@
 
   
   <h4 class="mb-3">
-    <a href="/nguyenxuanduchuy/blog/post-3/">
-      How to build an Application with modern Technology
+    <a href="/nguyenxuanduchuy/blog/post-9/">
+      Giới thiệu Java RMI (Remote Method Invocation)
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/nguyenxuanduchuy/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        <a href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Đức Huy
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/nguyenxuanduchuy/categories/software/"
+            href="/nguyenxuanduchuy/categories/java/"
             class="ms-1"
-            >Software
+            >Java
+              ,
+            
+          </a>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/distributed-systems/"
+            class="ms-1"
+            >Distributed systems
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+  <p class="mb-6">1️⃣ Giới thiệu RMI (Remote Method Invocation) là công nghệ trong Java cho phép gọi các phương thức (method) từ xa — nghĩa là bạn có thể gọi một hàm nằm trên một máy chủ khác qua mạng, nhưng vẫn thao tác như thể nó chạy trực tiếp trên máy bạn.
 </p>
-  <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-3/">
+  <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-9/">
     Read More
   </a>
 </div>
@@ -1585,31 +1653,31 @@
         <picture>
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/nguyenxuanduchuy/images/post1_hu_5ff20c26b0a3204d.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/nguyenxuanduchuy/images/post1_hu_e1e252b2fabf6fd5.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/nguyenxuanduchuy/images/post1_hu_d1f1c05659a5b654.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/nguyenxuanduchuy/images/post1_hu_a16186746a7cd306.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/nguyenxuanduchuy/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/nguyenxuanduchuy/images/post1_hu_7eb06f88175a30f9.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Giới thiệu về lập trình mạng với Java"
+            width="660"
+            height="406" />
         </picture>
       
       
@@ -1623,33 +1691,182 @@
 
   
   <h4 class="mb-3">
-    <a href="/nguyenxuanduchuy/blog/post-4/">
-      How to build an Application with modern Technology
+    <a href="/nguyenxuanduchuy/blog/post-1/">
+      Giới thiệu về lập trình mạng với Java
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/nguyenxuanduchuy/authors/john-doe/">
-          <i class="fa-regular fa-circle-user mr-2"></i>John Doe
+        <a href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Đức Huy
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/nguyenxuanduchuy/categories/architecture/"
+            href="/nguyenxuanduchuy/categories/java/"
             class="ms-1"
-            >Architecture
+            >Java
+              ,
+            
+          </a>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/networking/"
+            class="ms-1"
+            >Networking
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+  <p class="mb-6">1️⃣ Lập trình mạng là gì? Lập trình mạng (Network Programming) cho phép các chương trình gửi và nhận dữ liệu qua mạng bằng các giao thức như TCP và UDP.
+Trong Java, việc này được hỗ trợ thông qua các lớp trong gói java.net, ví dụ:
 </p>
-  <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-4/">
+  <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-1/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <img
+          
+            src="/nguyenxuanduchuy/images/post5_hu_df6b876cce2b955e.webp" loading="lazy"
+            decoding="async" alt="Lập trình Socket TCP nâng cao trong Java"
+          
+
+          class=" mb-6 w-full rounded img"
+          width="441"
+          height="287"
+          onerror="this.onerror='null';this.src='\/nguyenxuanduchuy\/images\/post5.png';" />
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/nguyenxuanduchuy/blog/post-5/">
+      Lập trình Socket TCP nâng cao trong Java
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Đức Huy
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/java/"
+            class="ms-1"
+            >Java
+              ,
+            
+          </a>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/networking/"
+            class="ms-1"
+            >Networking
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">1️⃣ Tổng quan TCP (Transmission Control Protocol) là giao thức hướng kết nối (connection-oriented), đảm bảo dữ liệu được truyền đúng thứ tự và không bị mất mát.
+</p>
+  <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-5/">
     Read More
   </a>
 </div>
@@ -1673,105 +1890,7 @@
         <a
           class="navbar-brand inline-block"
           href="/nguyenxuanduchuy/">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-  
-  
-    
-    
-  
-
-
-  
-  
-      
-      
-    
-    
-    
-    
-    
-    
-  
-  
-
-  
-  
-    
-    
-      
-      
-
-
-      
-      
-        
-        
-        
-        
-
-        
-        
-        
-      
-      
-    
-  
-  
-
-  
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-light"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo_hu_75df6f187f7b785d.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo_hu_613f51f483beed3c.png';" />
-
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-dark"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo-darkmode_hu_a274d2b570d85754.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
-  
-  
-
-
+          Nguyễn Xuân Đức Huy
         </a>
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
@@ -1817,7 +1936,7 @@
                 target="_blank"
                 aria-label="facebook"
                 rel="nofollow noopener"
-                href="https://www.facebook.com/">
+                href="https://www.facebook.com/duchuy.1812">
                 <i class="fab fa-facebook"></i>
               </a>
             </li>
@@ -1837,7 +1956,7 @@
                 target="_blank"
                 aria-label="github"
                 rel="nofollow noopener"
-                href="https://www.github.com/">
+                href="https://github.com/huy1812">
                 <i class="fab fa-github"></i>
               </a>
             </li>
@@ -1945,23 +2064,20 @@
 
 
 
-  
-  
-
 
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-yCBVqlqGxIKWtVMQRCQg55eSKysNeZOcci9boiLzpTI="
-  src="/nguyenxuanduchuy/js/script.min.c82055aa5a86c48296b55310442420e797922b2b0d79939c722f5ba222f3a532.js"></script>
+  integrity=""
+  src="/nguyenxuanduchuy/js/script.js"></script>
 
 
 <script
   defer
   async
   crossorigin="anonymous"
-  integrity="sha256-8w9V5&#43;VCnGhgTHXOsnVQjFqhE3cwvfCJD4096vUhMp0="
-  src="/nguyenxuanduchuy/js/script-lazy.min.f30f55e7e5429c68604c75ceb275508c5aa1137730bdf0890f8d3deaf521329d.js"></script>
+  integrity=""
+  src="/nguyenxuanduchuy/js/script-lazy.js"></script>
 
 
 
@@ -1991,5 +2107,6 @@
 
 
 
+    
   </body>
 </html>

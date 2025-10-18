@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I/O on Nguyen Xuan Duc Huy</title>
+    <link>http://localhost:1313/nguyenxuanduchuy/tags/i/o/</link>
+    <description>Recent content in I/O on Nguyen Xuan Duc Huy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nguyenxuanduchuy/tags/i/o/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quản lý luồng nhập và xuất (I/O Stream) trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-3/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-3/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;Trong lập trình mạng, &lt;strong&gt;luồng (Stream)&lt;/strong&gt; là cơ chế giúp dữ liệu &lt;strong&gt;truyền qua lại giữa hai tiến trình&lt;/strong&gt;, ví dụ giữa &lt;strong&gt;Client ↔ Server&lt;/strong&gt;.&lt;br&gt;&#xA;Java cung cấp các lớp mạnh mẽ trong gói &lt;code&gt;java.io&lt;/code&gt; để thao tác với luồng dữ liệu:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

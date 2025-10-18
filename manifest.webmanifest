@@ -1,10 +1,10 @@
 {
-  "name": "Hugoplate",
-  "short_name": "Hugoplate",
+  "name": "Nguyen Xuan Duc Huy",
+  "short_name": "Nguyen Xuan Duc Huy",
   "lang": "en-us",
   "display": "fullscreen",
   "orientation" : "portrait",
-  "start_url": "https://huy1812.github.io/nguyenxuanduchuy/?utm_source=web_app_manifest",
+  "start_url": "http://localhost:1313/nguyenxuanduchuy/?utm_source=web_app_manifest",
   "background_color": "#fff",
   "theme_color": "#000",
 

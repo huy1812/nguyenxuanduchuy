@@ -4,7 +4,7 @@
   class=""
   lang="en-us"
   itemtype="http://schema.org/WebPage">
-  <head>
+  <head><script src="/nguyenxuanduchuy/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=nguyenxuanduchuy/livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
 
@@ -72,7 +72,7 @@
 
 
 
-  <base href="https://huy1812.github.io/nguyenxuanduchuy/blog/post-4/" />
+  <base href="http://localhost:1313/nguyenxuanduchuy/blog/post-4/" />
 
 
 
@@ -81,9 +81,10 @@
 
 
   
+  
 
 
-<title>How to build an Application with modern Technology</title>
+<title>Tìm hiểu InetAddress trong Java — Làm việc với IP, hostname và DNS</title>
 
 
 
@@ -108,7 +109,7 @@
 
 <meta
   name="description"
-  content="this is meta description" />
+  content="Hướng dẫn chi tiết cách sử dụng lớp InetAddress trong Java để truy xuất thông tin IP, hostname, và thực hiện phân giải tên miền." />
 
 
 
@@ -161,15 +162,15 @@
       
       
       
-        <meta property="og:image" content="https://huy1812.github.io/nguyenxuanduchuy/images/image-placeholder.png" />
-        <meta name="twitter:image" content="https://huy1812.github.io/nguyenxuanduchuy/images/image-placeholder.png" />
+        <meta property="og:image" content="http://localhost:1313/nguyenxuanduchuy/images/post4.png" />
+        <meta name="twitter:image" content="http://localhost:1313/nguyenxuanduchuy/images/post4.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
       
       
-      <meta property="og:image:width" content="1096" />
-      <meta property="og:image:height" content="480" />
+      <meta property="og:image:width" content="1536" />
+      <meta property="og:image:height" content="1024" />
     
 
 
@@ -186,14 +187,14 @@
 
 
 
-<meta property="og:title" content="How to build an Application with modern Technology" />
-<meta property="og:description" content="this is meta description" />
+<meta property="og:title" content="Tìm hiểu InetAddress trong Java — Làm việc với IP, hostname và DNS" />
+<meta property="og:description" content="Hướng dẫn chi tiết cách sử dụng lớp InetAddress trong Java để truy xuất thông tin IP, hostname, và thực hiện phân giải tên miền." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://huy1812.github.io/nguyenxuanduchuy/blog/post-4/" />
+<meta property="og:url" content="http://localhost:1313/nguyenxuanduchuy/blog/post-4/" />
 
 
-<meta name="twitter:title" content="How to build an Application with modern Technology" />
-<meta name="twitter:description" content="this is meta description" />
+<meta name="twitter:title" content="Tìm hiểu InetAddress trong Java — Làm việc với IP, hostname và DNS" />
+<meta name="twitter:description" content="Hướng dẫn chi tiết cách sử dụng lớp InetAddress trong Java để truy xuất thông tin IP, hostname, và thực hiện phân giải tên miền." />
 
 
   <meta name="twitter:site" content="@zeon_studio" />
@@ -220,7 +221,7 @@
 
 
 <script>
-  let indexURL = "https://huy1812.github.io/nguyenxuanduchuy/searchindex.json";
+  let indexURL = "http://localhost:1313/nguyenxuanduchuy/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -326,22 +327,19 @@
 
 
 
-  
-  
-
 
 
 
 <link
-  href="/nguyenxuanduchuy/css/style.50e2de1626bfe5007b3fe4efed9741e91f3bcb2a51fed92bba824bfd91cc4913.css"
-  integrity="sha256-UOLeFia/5QB7P&#43;Tv7ZdB6R87yypR/tkruoJL/ZHMSRM="
+  href="/nguyenxuanduchuy/css/style.css"
+  integrity=""
   rel="stylesheet" />
 
 
 <link
   rel="stylesheet"
-  href="/nguyenxuanduchuy/css/style-lazy.min.9e7e035d2f064fe004383f2ffc11a8f2966ef7b51c5fb2fac926e35c0061b5cf.css"
-  integrity="sha256-nn4DXS8GT&#43;AEOD8v/BGo8pZu97UcX7L6ySbjXABhtc8="
+  href="/nguyenxuanduchuy/css/style-lazy.css"
+  integrity=""
   media="print"
   onload="this.media='all'; this.onload=null;" />
 
@@ -355,7 +353,18 @@
 
 
 
+
+
       
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
 
     
 
@@ -374,107 +383,11 @@
     
     <div class="order-0">
       
-      <a class="navbar-brand block" href="/nguyenxuanduchuy/">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-  
-  
-    
-    
-  
-
-
-  
-  
-      
-      
-    
-    
-    
-    
-    
-    
-  
-  
-
-  
-  
-    
-    
-      
-      
-
-
-      
-      
-        
-        
-        
-        
-
-        
-        
-        
-      
-      
-    
-  
-  
-
-  
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-light"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo_hu_75df6f187f7b785d.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo_hu_613f51f483beed3c.png';" />
-
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-dark"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo-darkmode_hu_a274d2b570d85754.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
-  
-  
-
-
-      </a>
+    <a
+    class="navbar-brand block text-2xl font-bold text-black dark:text-white"
+    href="/nguyenxuanduchuy/">
+    Nguyễn Xuân Đức Huy
+  </a>
     </div>
     
     <input id="nav-toggle" type="checkbox" class="hidden" />
@@ -537,7 +450,7 @@
               class="nav-link "
               
               href="/nguyenxuanduchuy/elements"
-              >Elements</a
+              >Resume</a
             >
           </li>
         
@@ -565,14 +478,6 @@
                 
                 
                 
-              
-                
-                
-                
-              
-                
-                
-                
                inline-flex items-center">
               Pages
               <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -582,28 +487,6 @@
             </label>
             <ul
               class="nav-dropdown-list hidden peer-checked:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/nguyenxuanduchuy/404">
-                    404 Page
-                  </a>
-                </li>
-              
-                
-                
-                <li class="nav-dropdown-item">
-                  <a
-                    class="nav-dropdown-link "
-                    
-                    href="/nguyenxuanduchuy/authors">
-                    Authors
-                  </a>
-                </li>
               
                 
                 
@@ -961,31 +844,31 @@
         <picture>
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/nguyenxuanduchuy/images/post4_hu_656ed3dc60c4ddd7.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/nguyenxuanduchuy/images/post4_hu_be41b67d7a5baa2.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/nguyenxuanduchuy/images/post4_hu_7ef9cc4e05503066.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/nguyenxuanduchuy/images/post4_hu_63bb49257f32a973.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/nguyenxuanduchuy/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/nguyenxuanduchuy/images/post4_hu_133e48e0a6cbddf9.png"
             class=" w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Quản lý địa chỉ mạng với InetAddress trong Java"
+            width="1536"
+            height="1024" />
         </picture>
       
       
@@ -1000,14 +883,14 @@
             </div>
           
           <h1 class="h2 mb-4">
-            How to build an Application with modern Technology
+            Quản lý địa chỉ mạng với InetAddress trong Java
           </h1>
           <ul class="mb-4">
             <li class="mr-4 inline-block">
               <a
-                href="/nguyenxuanduchuy/authors/john-doe/">
+                href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
                 <i class="fa-regular fa-circle-user mr-2"></i
-                >John Doe
+                >Đức Huy
               </a>
             </li>
             
@@ -1025,7 +908,7 @@
             
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-clock mr-2"></i>
-              April 4, 2022
+              October 16, 2025
             </li>
           </ul>
           <div class="content mb-10">
@@ -1042,19 +925,91 @@
   </summary>
   <nav id="TableOfContents">
   <ol>
-    <li><a href="#creative-design">Creative Design</a></li>
+    <li>
+      <ol>
+        <li><a href="#1-giới-thiệu">1️⃣ Giới thiệu</a></li>
+        <li><a href="#2-ví-dụ-cơ-bản-với-inetaddress">2️⃣ Ví dụ cơ bản với InetAddress</a>
+          <ol>
+            <li><a href="#giải-thích">Giải thích:</a></li>
+          </ol>
+        </li>
+        <li><a href="#3-ứng-dụng-thực-tế-của-inetaddress">3️⃣ Ứng dụng thực tế của InetAddress</a></li>
+        <li><a href="#4-kết-luận">4️⃣ Kết luận</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
 </details>
 
-            <p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
-<h2 id="creative-design">Creative Design</h2>
-<p>Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
-<blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
-</blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+            <h3 id="1-giới-thiệu">1️⃣ Giới thiệu</h3>
+<p>Khi làm việc với lập trình mạng, một trong những yêu cầu cơ bản là <strong>xác định và quản lý địa chỉ IP</strong> của thiết bị hoặc máy chủ.<br>
+Trong Java, lớp <strong>InetAddress</strong> trong gói <code>java.net</code> được thiết kế để làm việc với:</p>
+<ul>
+<li><strong>Địa chỉ IP (IPv4 / IPv6)</strong></li>
+<li><strong>Tên máy (hostname)</strong></li>
+<li><strong>Phân giải tên miền (DNS lookup)</strong></li>
+</ul>
+<p>Bạn có thể sử dụng <strong>InetAddress</strong> để:</p>
+<ul>
+<li>Lấy thông tin của <strong>máy cục bộ (localhost)</strong>.</li>
+<li>Phân giải <strong>tên miền → địa chỉ IP</strong>.</li>
+<li>Kiểm tra <strong>tính khả dụng của máy chủ</strong> qua phương thức <code>isReachable()</code>.</li>
+</ul>
+<hr>
+<h3 id="2-ví-dụ-cơ-bản-với-inetaddress">2️⃣ Ví dụ cơ bản với InetAddress</h3>
+<p>Ví dụ dưới đây minh họa cách lấy <strong>thông tin máy hiện tại</strong> và <strong>phân giải IP của website</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.net.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">NetworkInfo</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) <span style="color:#66d9ef">throws</span> Exception {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Lấy thông tin máy cục bộ</span>
+</span></span><span style="display:flex;"><span>        InetAddress local <span style="color:#f92672">=</span> InetAddress.<span style="color:#a6e22e">getLocalHost</span>();
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Tên máy cục bộ: &#34;</span> <span style="color:#f92672">+</span> local.<span style="color:#a6e22e">getHostName</span>());
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Địa chỉ IP cục bộ: &#34;</span> <span style="color:#f92672">+</span> local.<span style="color:#a6e22e">getHostAddress</span>());
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Lấy thông tin của một domain cụ thể</span>
+</span></span><span style="display:flex;"><span>        InetAddress google <span style="color:#f92672">=</span> InetAddress.<span style="color:#a6e22e">getByName</span>(<span style="color:#e6db74">&#34;google.com&#34;</span>);
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Tên miền: &#34;</span> <span style="color:#f92672">+</span> google.<span style="color:#a6e22e">getHostName</span>());
+</span></span><span style="display:flex;"><span>        System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Địa chỉ IP của Google: &#34;</span> <span style="color:#f92672">+</span> google.<span style="color:#a6e22e">getHostAddress</span>());
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="giải-thích">Giải thích:</h4>
+<ul>
+<li>InetAddress.getLocalHost() → trả về thông tin IP của chính máy đang chạy chương trình.</li>
+<li>InetAddress.getByName(&ldquo;google.com&rdquo;) → thực hiện phân giải DNS để tìm IP thật của tên miền.</li>
+<li>getHostName() và getHostAddress() → lần lượt lấy tên máy và địa chỉ IP.</li>
+</ul>
+<h3 id="3-ứng-dụng-thực-tế-của-inetaddress">3️⃣ Ứng dụng thực tế của InetAddress</h3>
+<p>Lớp InetAddress rất hữu ích trong nhiều tình huống mạng:</p>
+<ol>
+<li>Kiểm tra kết nối Internet
+→ Dùng để xác định xem thiết bị có thể truy cập một địa chỉ từ xa không.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>InetAddress google <span style="color:#f92672">=</span> InetAddress.<span style="color:#a6e22e">getByName</span>(<span style="color:#e6db74">&#34;google.com&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">boolean</span> reachable <span style="color:#f92672">=</span> google.<span style="color:#a6e22e">isReachable</span>(3000);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Có thể kết nối đến Google: &#34;</span> <span style="color:#f92672">+</span> reachable);
+</span></span></code></pre></div><ol start="2">
+<li>
+<p>Viết chương trình &ldquo;ping&rdquo; đơn giản
+→ Đo thời gian phản hồi của một server hoặc thiết bị mạng.</p>
+</li>
+<li>
+<p>Quản lý danh sách máy trong mạng LAN
+→ Có thể kết hợp vòng lặp quét dải IP (ví dụ 192.168.1.x) để tìm các thiết bị đang hoạt động.</p>
+</li>
+<li>
+<p>Tích hợp với hệ thống giám sát mạng hoặc IoT
+→ Xác định thiết bị nào đang online, offline, hoặc phản hồi chậm.</p>
+</li>
+</ol>
+<h3 id="4-kết-luận">4️⃣ Kết luận</h3>
+<p>Lớp InetAddress là bước khởi đầu quan trọng để hiểu DNS, địa chỉ IP, và kết nối mạng trong Java.
+Nó là nền tảng cho các ứng dụng như:</p>
+<ul>
+<li>Công cụ kiểm tra mạng,</li>
+<li>Hệ thống client-server,</li>
+<li>Ứng dụng IoT hoặc giám sát thiết bị.</li>
+</ul>
 
           </div>
           <div class="row items-start justify-between">
@@ -1067,16 +1022,32 @@
                     <li class="inline-block">
                       <a
                         class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
-                        href="/nguyenxuanduchuy/tags/silicon/">
-                        Silicon
+                        href="/nguyenxuanduchuy/tags/java/">
+                        Java
                       </a>
                     </li>
                   
                     <li class="inline-block">
                       <a
                         class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
-                        href="/nguyenxuanduchuy/tags/technology/">
-                        Technology
+                        href="/nguyenxuanduchuy/tags/inetaddress/">
+                        Inet address
+                      </a>
+                    </li>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/nguyenxuanduchuy/tags/networking/">
+                        Networking
+                      </a>
+                    </li>
+                  
+                    <li class="inline-block">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="/nguyenxuanduchuy/tags/ip/">
+                        IP
                       </a>
                     </li>
                   
@@ -1109,7 +1080,7 @@
   
     <a
       class="share-link share-facebook"
-      href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fhuy1812.github.io%2fnguyenxuanduchuy%2fblog%2fpost-4%2f"
+      href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fnguyenxuanduchuy%2fblog%2fpost-4%2f"
       target="_blank"
       rel="noopener"
       aria-label="share facebook">
@@ -1127,7 +1098,7 @@
   
     <a
       class="share-link share-x"
-      href="https://x.com/intent/tweet/?text=How%20to%20build%20an%20Application%20with%20modern%20Technology&amp;url=https%3a%2f%2fhuy1812.github.io%2fnguyenxuanduchuy%2fblog%2fpost-4%2f"
+      href="https://x.com/intent/tweet/?text=Qu%e1%ba%a3n%20l%c3%bd%20%c4%91%e1%bb%8ba%20ch%e1%bb%89%20m%e1%ba%a1ng%20v%e1%bb%9bi%20InetAddress%20trong%20Java&amp;url=http%3a%2f%2flocalhost%3a1313%2fnguyenxuanduchuy%2fblog%2fpost-4%2f"
       target="_blank"
       rel="noopener"
       aria-label="share x">
@@ -1145,7 +1116,7 @@
   
     <a
       class="share-link share-email"
-      href="mailto:?subject=How%20to%20build%20an%20Application%20with%20modern%20Technology&amp;body=https%3a%2f%2fhuy1812.github.io%2fnguyenxuanduchuy%2fblog%2fpost-4%2f"
+      href="mailto:?subject=Qu%e1%ba%a3n%20l%c3%bd%20%c4%91%e1%bb%8ba%20ch%e1%bb%89%20m%e1%ba%a1ng%20v%e1%bb%9bi%20InetAddress%20trong%20Java&amp;body=http%3a%2f%2flocalhost%3a1313%2fnguyenxuanduchuy%2fblog%2fpost-4%2f"
       target="_self"
       rel="noopener"
       aria-label="share email">
@@ -1218,10 +1189,10 @@
           type="text"
           placeholder="Enter Fediverse Instance URL"
           class="fediverse-input"
-          onkeypress="handleFediverseShare(event, 'https:\/\/huy1812.github.io\/nguyenxuanduchuy\/blog\/post-4\/', 'How to build an Application with modern Technology')" />
+          onkeypress="handleFediverseShare(event, 'http:\/\/localhost:1313\/nguyenxuanduchuy\/blog\/post-4\/', 'Quản lý địa chỉ mạng với InetAddress trong Java')" />
         <button
           class="fediverse-check-button"
-          onclick="handleFediverseShareButton(this, 'https:\/\/huy1812.github.io\/nguyenxuanduchuy\/blog\/post-4\/', 'How to build an Application with modern Technology')">
+          onclick="handleFediverseShareButton(this, 'http:\/\/localhost:1313\/nguyenxuanduchuy\/blog\/post-4\/', 'Quản lý địa chỉ mạng với InetAddress trong Java')">
           Share
         </button>
       </span>
@@ -1233,7 +1204,7 @@
   
     <button
       class="share-link share-copy"
-      onclick="copyToClipboard(this, 'https:\/\/huy1812.github.io\/nguyenxuanduchuy\/blog\/post-4\/')">
+      onclick="copyToClipboard(this, 'http:\/\/localhost:1313\/nguyenxuanduchuy\/blog\/post-4\/')">
       <span class="share-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
@@ -1423,31 +1394,31 @@
         <picture>
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c8971dd714d7d967.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_fdf94c9873d4e90a.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_7feb4cff3f0f2f38.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_35230a4d766c2496.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_aa8934e738977bd1.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_c1ab8d1c93e7327a.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/nguyenxuanduchuy/images/image-placeholder_hu_c6a26df46efa63e0.webp"
+              srcset="/nguyenxuanduchuy/images/TCP-UDP_hu_26add63b09779c9.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/nguyenxuanduchuy/images/image-placeholder_hu_8da812934bbff7ba.png"
+              src="/nguyenxuanduchuy/images/TCP-UDP_hu_5ee4129d1e9036f1.png"
             class=" mb-6 w-full rounded img"
-            alt="How to build an Application with modern Technology"
-            width="1096"
-            height="480" />
+            alt="Hiểu rõ giao thức TCP và UDP trong Java "
+            width="1000"
+            height="470" />
         </picture>
       
       
@@ -1462,40 +1433,345 @@
   
   <h4 class="mb-3">
     <a href="/nguyenxuanduchuy/blog/post-2/">
-      How to build an Application with modern Technology
+      Hiểu rõ giao thức TCP và UDP trong Java 
     </a>
   </h4>
   
   
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="/nguyenxuanduchuy/authors/sam-wilson/">
-          <i class="fa-regular fa-circle-user mr-2"></i>Sam Wilson
+        <a href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Đức Huy
         </a>
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
         
           <a
-            href="/nguyenxuanduchuy/categories/technology/"
+            href="/nguyenxuanduchuy/categories/java/"
             class="ms-1"
-            >Technology
+            >Java
               ,
             
           </a>
         
           <a
-            href="/nguyenxuanduchuy/categories/data/"
+            href="/nguyenxuanduchuy/categories/networking/"
             class="ms-1"
-            >Data
+            >Networking
           </a>
         
       </li>
     </ul>
   
-  <p class="mb-6">Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+  <p class="mb-6">1️⃣ Giới thiệu Khi lập trình mạng, bạn sẽ thường gặp hai giao thức cơ bản nhất: TCP (Transmission Control Protocol) và UDP (User Datagram Protocol).
+Chúng quyết định cách dữ liệu được truyền đi giữa các máy tính trong mạng.
 </p>
   <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-2/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/nguyenxuanduchuy/images/post1_hu_5ff20c26b0a3204d.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/nguyenxuanduchuy/images/post1_hu_e1e252b2fabf6fd5.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/nguyenxuanduchuy/images/post1_hu_d1f1c05659a5b654.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/nguyenxuanduchuy/images/post1_hu_a16186746a7cd306.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/nguyenxuanduchuy/images/post1_hu_7eb06f88175a30f9.png"
+            class=" mb-6 w-full rounded img"
+            alt="Giới thiệu về lập trình mạng với Java"
+            width="660"
+            height="406" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/nguyenxuanduchuy/blog/post-1/">
+      Giới thiệu về lập trình mạng với Java
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Đức Huy
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/java/"
+            class="ms-1"
+            >Java
+              ,
+            
+          </a>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/networking/"
+            class="ms-1"
+            >Networking
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">1️⃣ Lập trình mạng là gì? Lập trình mạng (Network Programming) cho phép các chương trình gửi và nhận dữ liệu qua mạng bằng các giao thức như TCP và UDP.
+Trong Java, việc này được hỗ trợ thông qua các lớp trong gói java.net, ví dụ:
+</p>
+  <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-1/">
+    Read More
+  </a>
+</div>
+
+              </div>
+            
+              <div class="lg:col-4 md:col-6 mb-14">
+                <div class="bg-body dark:bg-darkmode-body">
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <img
+          
+            src="/nguyenxuanduchuy/images/post7_hu_2bb9160bc1b337c5.webp" loading="lazy"
+            decoding="async" alt="Lập trình đa luồng (Multithreading) trong ứng dụng mạng Java"
+          
+
+          class=" mb-6 w-full rounded img"
+          width="274"
+          height="184"
+          onerror="this.onerror='null';this.src='\/nguyenxuanduchuy\/images\/post7.png';" />
+      
+      
+    
+    
+  
+
+
+  
+
+
+  
+  <h4 class="mb-3">
+    <a href="/nguyenxuanduchuy/blog/post-7/">
+      Lập trình đa luồng (Multithreading) trong ứng dụng mạng Java
+    </a>
+  </h4>
+  
+  
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <a href="/nguyenxuanduchuy/authors/%C4%91%E1%BB%A9c-huy/">
+          <i class="fa-regular fa-circle-user mr-2"></i>Đức Huy
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-folder mr-1"></i>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/java/"
+            class="ms-1"
+            >Java
+              ,
+            
+          </a>
+        
+          <a
+            href="/nguyenxuanduchuy/categories/networking/"
+            class="ms-1"
+            >Networking
+          </a>
+        
+      </li>
+    </ul>
+  
+  <p class="mb-6">1️⃣ Giới thiệu – Đa luồng là gì? Đa luồng (Multithreading) là kỹ thuật cho phép một chương trình thực hiện nhiều tác vụ cùng lúc.
+Thay vì chạy tuần tự từng bước, chương trình có thể tạo nhiều luồng (Thread) — mỗi luồng đảm nhận một công việc riêng biệt. Ví dụ:
+</p>
+  <a class="btn btn-outline-primary btn-sm" href="/nguyenxuanduchuy/blog/post-7/">
     Read More
   </a>
 </div>
@@ -1519,105 +1795,7 @@
         <a
           class="navbar-brand inline-block"
           href="/nguyenxuanduchuy/">
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-  
-  
-    
-    
-  
-
-
-  
-  
-      
-      
-    
-    
-    
-    
-    
-    
-  
-  
-
-  
-  
-    
-    
-      
-      
-
-
-      
-      
-        
-        
-        
-        
-
-        
-        
-        
-      
-      
-    
-  
-  
-
-  
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-light"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo_hu_75df6f187f7b785d.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo_hu_613f51f483beed3c.png';" />
-
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img img-dark"
-      width="160"
-      height="32"
-      src="/nguyenxuanduchuy/images/logo-darkmode_hu_a274d2b570d85754.webp"
-      alt="Hugoplate"
-      onerror="this.onerror=null;this.src='\/nguyenxuanduchuy\/images\/logo-darkmode_hu_11d6a0e948ad5f4.png';" />
-  
-  
-
-
+          Nguyễn Xuân Đức Huy
         </a>
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
@@ -1663,7 +1841,7 @@
                 target="_blank"
                 aria-label="facebook"
                 rel="nofollow noopener"
-                href="https://www.facebook.com/">
+                href="https://www.facebook.com/duchuy.1812">
                 <i class="fab fa-facebook"></i>
               </a>
             </li>
@@ -1683,7 +1861,7 @@
                 target="_blank"
                 aria-label="github"
                 rel="nofollow noopener"
-                href="https://www.github.com/">
+                href="https://github.com/huy1812">
                 <i class="fab fa-github"></i>
               </a>
             </li>
@@ -1791,23 +1969,20 @@
 
 
 
-  
-  
-
 
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-yCBVqlqGxIKWtVMQRCQg55eSKysNeZOcci9boiLzpTI="
-  src="/nguyenxuanduchuy/js/script.min.c82055aa5a86c48296b55310442420e797922b2b0d79939c722f5ba222f3a532.js"></script>
+  integrity=""
+  src="/nguyenxuanduchuy/js/script.js"></script>
 
 
 <script
   defer
   async
   crossorigin="anonymous"
-  integrity="sha256-8w9V5&#43;VCnGhgTHXOsnVQjFqhE3cwvfCJD4096vUhMp0="
-  src="/nguyenxuanduchuy/js/script-lazy.min.f30f55e7e5429c68604c75ceb275508c5aa1137730bdf0890f8d3deaf521329d.js"></script>
+  integrity=""
+  src="/nguyenxuanduchuy/js/script-lazy.js"></script>
 
 
 
@@ -1837,5 +2012,6 @@
 
 
 
+    
   </body>
 </html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multithreading on Nguyen Xuan Duc Huy</title>
+    <link>http://localhost:1313/nguyenxuanduchuy/tags/multithreading/</link>
+    <description>Recent content in Multithreading on Nguyen Xuan Duc Huy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nguyenxuanduchuy/tags/multithreading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình đa luồng (Multithreading) trong ứng dụng mạng Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-7/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-7/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu--đa-luồng-là-gì&#34;&gt;1️⃣ Giới thiệu – Đa luồng là gì?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Đa luồng (Multithreading)&lt;/strong&gt; là kỹ thuật cho phép một chương trình &lt;strong&gt;thực hiện nhiều tác vụ cùng lúc&lt;/strong&gt;.&lt;br&gt;&#xA;Thay vì chạy tuần tự từng bước, chương trình có thể tạo &lt;strong&gt;nhiều luồng (Thread)&lt;/strong&gt; — mỗi luồng đảm nhận một công việc riêng biệt.&#xA;Ví dụ:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

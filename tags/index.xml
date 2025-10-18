@@ -1,60 +1,102 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugoplate</title>
-    <link>https://huy1812.github.io/nguyenxuanduchuy/tags/</link>
-    <description>Recent content in Tags on Hugoplate</description>
+    <title>Tags on Nguyen Xuan Duc Huy</title>
+    <link>http://localhost:1313/nguyenxuanduchuy/tags/</link>
+    <description>Recent content in Tags on Nguyen Xuan Duc Huy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
-    <atom:link href="https://huy1812.github.io/nguyenxuanduchuy/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/nguyenxuanduchuy/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/distributed/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/distributed/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>I/O</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/i/o/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/i/o/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>InetAddress</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/inetaddress/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/inetaddress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IP</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/ip/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/ip/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/java/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/java/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/java/</guid>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multicast</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/multicast/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/multicast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multithreading</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/multithreading/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/multithreading/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/networking/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/networking/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/networking/</guid>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RMI</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/rmi/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/rmi/</guid>
       <description></description>
     </item>
     <item>
       <title>Socket</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/socket/</link>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/socket/</link>
       <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/socket/</guid>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/socket/</guid>
       <description></description>
     </item>
     <item>
-      <title>Silicon</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/silicon/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/silicon/</guid>
+      <title>Stream</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/stream/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/stream/</guid>
       <description></description>
     </item>
     <item>
-      <title>Software</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/software/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/software/</guid>
+      <title>TCP</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/tcp/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/tcp/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tailwind</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/tailwind/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/tailwind/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technology</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/tags/technology/</link>
-      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/tags/technology/</guid>
+      <title>UDP</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/tags/udp/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/tags/udp/</guid>
       <description></description>
     </item>
   </channel>

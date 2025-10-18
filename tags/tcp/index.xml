@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TCP on Nguyen Xuan Duc Huy</title>
+    <link>http://localhost:1313/nguyenxuanduchuy/tags/tcp/</link>
+    <description>Recent content in TCP on Nguyen Xuan Duc Huy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nguyenxuanduchuy/tags/tcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hiểu rõ giao thức TCP và UDP trong Java </title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-2/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-2/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;Khi lập trình mạng, bạn sẽ thường gặp hai giao thức cơ bản nhất: &lt;strong&gt;TCP (Transmission Control Protocol)&lt;/strong&gt; và &lt;strong&gt;UDP (User Datagram Protocol)&lt;/strong&gt;.&lt;br&gt;&#xA;Chúng quyết định &lt;strong&gt;cách dữ liệu được truyền đi giữa các máy tính trong mạng&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lập trình Socket TCP nâng cao trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-5/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-5/</guid>
+      <description>&lt;h3 id=&#34;1-tổng-quan&#34;&gt;1️⃣ Tổng quan&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;TCP (Transmission Control Protocol)&lt;/strong&gt; là giao thức &lt;strong&gt;hướng kết nối (connection-oriented)&lt;/strong&gt;, đảm bảo dữ liệu được truyền &lt;strong&gt;đúng thứ tự&lt;/strong&gt; và &lt;strong&gt;không bị mất mát&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

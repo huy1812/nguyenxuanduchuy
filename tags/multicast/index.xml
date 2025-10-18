@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multicast on Nguyen Xuan Duc Huy</title>
+    <link>http://localhost:1313/nguyenxuanduchuy/tags/multicast/</link>
+    <description>Recent content in Multicast on Nguyen Xuan Duc Huy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Oct 2025 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nguyenxuanduchuy/tags/multicast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình Multicast UDP trong Java</title>
+      <link>http://localhost:1313/nguyenxuanduchuy/blog/post-8/</link>
+      <pubDate>Thu, 16 Oct 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nguyenxuanduchuy/blog/post-8/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu--multicast-là-gì&#34;&gt;1️⃣ Giới thiệu – Multicast là gì?&lt;/h3&gt;&#xA;&lt;p&gt;🔹 &lt;strong&gt;Multicast&lt;/strong&gt; là sự cân bằng giữa Unicast và Broadcast — nó cho phép bạn gửi &lt;strong&gt;một gói tin duy nhất&lt;/strong&gt;, nhưng &lt;strong&gt;nhiều máy trong nhóm có thể nhận được&lt;/strong&gt;.&lt;br&gt;&#xA;→ Giúp &lt;strong&gt;tiết kiệm băng thông&lt;/strong&gt; và &lt;strong&gt;tăng hiệu suất truyền thông điệp nhóm&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
