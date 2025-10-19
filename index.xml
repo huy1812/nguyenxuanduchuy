@@ -72,18 +72,18 @@
       <description>&lt;h3 id=&#34;1-giới-thiệu&#34;&gt;1️⃣ Giới thiệu&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;RMI (Remote Method Invocation)&lt;/strong&gt; là công nghệ trong Java cho phép &lt;strong&gt;gọi các phương thức (method) từ xa&lt;/strong&gt; — nghĩa là bạn có thể gọi một hàm nằm trên &lt;strong&gt;một máy chủ khác qua mạng&lt;/strong&gt;, nhưng vẫn thao tác như thể nó chạy &lt;strong&gt;trực tiếp trên máy bạn&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title></title>
+      <link>https://huy1812.github.io/nguyenxuanduchuy/elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://huy1812.github.io/nguyenxuanduchuy/elements/</guid>
+      <description>&lt;!-- ======= PHẦN ĐẦU (HỒ SƠ NĂNG LỰC) ======= --&gt;&#xD;&#xA;&lt;section style=&#34;&#xD;&#xA;  display: flex;&#xD;&#xA;  align-items: center;&#xD;&#xA;  justify-content: center;&#xD;&#xA;  gap: 60px;&#xD;&#xA;  background-color: #f4f4f4; /* 🎨 Nền xám nhẹ */&#xD;&#xA;  padding: 80px 0;&#xD;&#xA;  color: #0b1833;&#xD;&#xA;  flex-wrap: wrap;&#xD;&#xA;&#34;&gt;&#xD;&#xA;  &lt;!-- Ảnh cá nhân --&gt;&#xD;&#xA;  &lt;div style=&#34;&#xD;&#xA;    width: 320px;&#xD;&#xA;    height: 320px;&#xD;&#xA;    border-radius: 50%;&#xD;&#xA;    overflow: hidden;&#xD;&#xA;    flex-shrink: 0;&#xD;&#xA;    box-shadow: 0 6px 20px rgba(0,0,0,0.1);&#xD;&#xA;    display: flex;&#xD;&#xA;    justify-content: center;&#xD;&#xA;    align-items: center;&#xD;&#xA;  &#34;&gt;&#xD;&#xA;    &lt;figure class=&#34;project-image&#34;&gt;&lt;img src=&#34;https://huy1812.github.io/nguyenxuanduchuy/images/cv2.png&#34;&#xA;        alt=&#34;Ảnh cá nhân&#34;&gt;&#xA;    &lt;/figure&gt;&#xA;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;!-- Phần nội dung chữ --&gt;&#xD;&#xA;  &lt;div style=&#34;max-width: 400px; text-align: center;&#34;&gt;&#xD;&#xA;    &lt;h1 style=&#34;font-size: 2.5rem; font-weight: 700; margin-bottom: 10px;&#34;&gt;&#xD;&#xA;      HỒ SƠ&#xD;&#xA;    &lt;/h1&gt;&#xD;&#xA;    &lt;h1 style=&#34;font-size: 2.5rem; font-weight: 700; margin-bottom: 25px;&#34;&gt;&#xD;&#xA;      NĂNG LỰC&#xD;&#xA;    &lt;/h1&gt;&#xD;&#xA;  &lt;a href=&#34;https://huy1812.github.io/nguyenxuanduchuy/cv.pdf&#34;&#xD;&#xA;   target=&#34;_blank&#34;&#xD;&#xA;   style=&#34;&#xD;&#xA;     display: inline-block;&#xD;&#xA;     padding: 12px 24px;&#xD;&#xA;     background-color: #2b6ef2;&#xD;&#xA;     color: white;&#xD;&#xA;     border-radius: 6px;&#xD;&#xA;     font-weight: 600;&#xD;&#xA;     text-decoration: none;&#xD;&#xA;     box-shadow: 0 4px 10px rgba(43, 110, 242, 0.3);&#xD;&#xA;     transition: all 0.3s ease;&#xD;&#xA;   &#34;&#xD;&#xA;   onmouseover=&#34;this.style.backgroundColor=&#39;#1d56c2&#39;&#34;&#xD;&#xA;   onmouseout=&#34;this.style.backgroundColor=&#39;#2b6ef2&#39;&#34;&gt;&#xD;&#xA;   📄 Download My CV Now&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;&#xD;&#xA;&lt;h2 id=&#34;-học-vấn&#34;&gt;🎓 Học vấn&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trường Đại học Công nghệ TP.HCM (HUTECH)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Ngành Công nghệ thông tin — Hiện tại&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>John Doe</title>
       <link>https://huy1812.github.io/nguyenxuanduchuy/authors/john-doe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://huy1812.github.io/nguyenxuanduchuy/authors/john-doe/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/privacy-policy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/privacy-policy/</guid>
-      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ready to build your next project with Hugo?</title>
@@ -98,13 +98,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://huy1812.github.io/nguyenxuanduchuy/authors/sam-wilson/</guid>
       <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sơ yếu lý lịch</title>
-      <link>https://huy1812.github.io/nguyenxuanduchuy/elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://huy1812.github.io/nguyenxuanduchuy/elements/</guid>
-      <description>&lt;h2 id=&#34;-học-vấn&#34;&gt;🎓 Học vấn&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Trường Đại học Công nghệ TP.HCM (HUTECH)&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Ngành Công nghệ thông tin — Hiện tại&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>William Jacob</title>

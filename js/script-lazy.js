@@ -4975,3 +4975,27 @@ class LiteYTEmbed extends HTMLElement {
 // Register custom element
 customElements.define("lite-youtube", LiteYTEmbed);
 
+
+;
+  document.addEventListener("DOMContentLoaded", function () {
+    // Tạo gallery lightbox cho các ảnh figure
+    const figures = document.querySelectorAll(".project-gallery img, .cert-image");
+    figures.forEach((img) => {
+      const link = document.createElement("a");
+      link.href = img.src;
+      link.classList.add("glightbox");
+      link.setAttribute("data-gallery", "project-gallery");
+      img.parentNode.insertBefore(link, img);
+      link.appendChild(img);
+    });
+
+    // Kích hoạt GLightbox
+    if (typeof GLightbox !== "undefined") {
+      GLightbox({
+        selector: ".glightbox",
+        touchNavigation: true,
+        loop: true,
+        closeOnOutsideClick: true,
+      });
+    }
+  });
